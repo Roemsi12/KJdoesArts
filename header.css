@@ -1,0 +1,91 @@
+body {
+  position: relative;
+  background-color: #1F2544;
+  color: #ffebf7;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #474F7A;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FFD0EC;
+}
+
+nav {
+  background-color: transparent;
+  position: absolute;
+  top: 100;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  padding-top: 28px;
+  padding-left:  10rem;
+  padding-right: 10rem ;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #FFD0EC;
+  opacity: 0.8;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+.home-button {
+  font-size: 2rem;
+  color: #FFD0EC;
+  opacity: 1;
+}
+
+.home-bt-div {
+  padding-left: 3rem;
+}
+
+.nav-links-div a {
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #1F2544);
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFD0EC;
+}
+
+p {
+  cursor: context-menu;
+}

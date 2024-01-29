@@ -1,0 +1,22 @@
+.hero-overlay {
+  background: url(/img/cabin-4792470_1920.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -1370px; 
+  transition: background-position 0.15s ease; 
+}
+
+.hero-container {
+  height: 500px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #2c3333);
+}
+
+.hero-container h1 {
+  font-size: 4rem;
+  cursor: context-menu;
+}
+
+footer {
+  margin-top: calc(100vh - 600px);
+}
