@@ -3,19 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KJdoesArts</title>
+  <title>The Art Galaxy</title>
   <link rel="stylesheet" href="/main.css">
   <link rel="stylesheet" href="/header.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="nav-overlay">
+    <div class="line-animation-div-2"></div>
+  </div>
+  <div class="nav-overlay">
+    <div class="line-animation-div-1"></div>
+  </div>
   <nav>
     <div class="home-bt-div">
-      <a href="/index.html" class="home-button">HOME</a>
+      <a href="/index.html" class="home-button">The Art Galaxy</a>
     </div>
     <div class="nav-links-div">
-      <a onclick="locate()">Services</a>
+      <!-- <a class="dropdown-link" onclick="locate()">Services</a>
+      <ul class="dropdown">
+        <li><a href="#">Character Art</a></li>
+        <li><a href="#">Sketches</a></li>
+        <li><a href="#">Animations</a></li>
+        <li><a href="#">Game Assets</a></li>
+        <li><a href="#">Twitch</a></li>
+        <li><a href="#">2D/3D Modeling</a></li>
+        <li><a href="#">Book Illustration</a></li>
+        <li><a href="#">Pixel Art</a></li>
+        <li><a href="#">Music Album Covers</a></li>
+      </ul>
       <a href="/about.html">About</a>
-      <a href="">Contact us</a>
+      <a href="">Contact us</a> -->
+      <ul class="nav-links-ul">
+        <li class="dropdown-link">
+          <a class="blub" onclick="locate()">Services</a>
+          <ul class="dropdown">
+            <li><a href="#">Character Art</a></li>
+            <li><a href="#">Sketches</a></li>
+            <li><a href="#">Animations</a></li>
+            <li><a href="#">Game Assets</a></li>
+            <li><a href="#">Twitch</a></li>
+            <li><a href="#">2D/3D Modeling</a></li>
+            <li><a href="#">Book Illustration</a></li>
+            <li><a href="#">Pixel Art</a></li>
+            <li><a href="#">Music Album Covers</a></li>
+          </ul>
+        </li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>
     </div>
   </nav>
   <div class="hero-container" id="hero-div">

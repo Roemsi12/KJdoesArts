@@ -1,15 +1,15 @@
 .hero-overlay {
-  background: url(/img/cabin-4792470_1920.jpg);
-  height: 500px;
+  background: url('/img/watercolor-galaxy-background_23-2149231173.avif');
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -1370px; 
+  background-position: top; 
   transition: background-position 0.15s ease; 
 }
 
 .hero-container {
-  height: 500px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #2c3333);
+  height: 50vh;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #1F2544);
 }
 
 .hero-container h1 {
@@ -17,6 +17,18 @@
   cursor: context-menu;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.about-text {
+  max-width: 60vw;
+  font-size: 1.7rem;
+  font-family: 'lato', serif;
+}
+
 footer {
-  margin-top: calc(100vh - 600px);
+  margin-top: 100px;
 }

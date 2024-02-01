@@ -12,7 +12,7 @@
 }
 
 .hero-container h1 {
-  font-size: 4rem;
+  font-size: clamp(1.5rem, 5vw, 4.5rem);
   text-align: center;
   cursor: context-menu;
 }
@@ -101,8 +101,10 @@ main {
 }
 
 main a {
-  height: 300px;
-  width: 300px;
+  height: 20vw;
+  max-height: 300px;
+  width: 20vw;
+  max-width: 300px;
   overflow: hidden;
   display: flex;
   align-items: end;
@@ -113,7 +115,7 @@ main a {
   border: 3px solid #1F2544;
   color: transparent;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: clamp(1rem, 2vw, 2rem);
   border-radius: 6px;
 }
 
