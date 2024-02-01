@@ -22,24 +22,22 @@
       <a href="./index.html" class="home-button">The Art Galaxy</a>
     </div>
     <div class="nav-links-div">
-      <ul class="nav-links-ul">
-        <li class="dropdown-link">
-          <a class="blub" onclick="locate()">Services</a>
-          <ul class="dropdown">
-            <li><a href="#">Character Art</a></li>
-            <li><a href="#">Sketches</a></li>
-            <li><a href="#">Animations</a></li>
-            <li><a href="#">Game Assets</a></li>
-            <li><a href="#">Twitch</a></li>
-            <li><a href="#">2D/3D Modeling</a></li>
-            <li><a href="#">Book Illustration</a></li>
-            <li><a href="#">Pixel Art</a></li>
-            <li><a href="#">Music Album Covers</a></li>
-          </ul>
-        </li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="">Contact us</a></li>
-      </ul>
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Services</button>
+        <div class="dropdown-menu">
+          <a href="#">Character Art</a>
+          <a href="#">Sketches</a>
+          <a href="#">Animations</a>
+          <a href="#">Game Assets</a>
+          <a href="#">Twitch</a>
+          <a href="#">2D/3D Modeling</a>
+          <a href="#">Book Illustration</a>
+          <a href="#">Pixel Art</a>
+          <a href="#">Music Album Covers</a>
+        </div>
+      </div>
+      <a href="./about.html">About</a>
+      <a href="#">Contact us</a>
     </div>
   </nav>
   <div class="hero-container" id="hero-div">
@@ -50,31 +48,31 @@
   <main>
     <h2>Categories</h2>
     <div class="categories-div">
-      <a href="" class="box-1">
+      <a href="#" class="box-1">
         Character Art
       </a>
-      <a href="" class="box-2">
+      <a href="#" class="box-2">
         Sketches
       </a>
-      <a href="" class="box-3">
+      <a href="#" class="box-3">
         Animations
       </a>
-      <a href="" class="box-4">
+      <a href="#" class="box-4">
         Game Assets
       </a>
-      <a href="" class="box-5">
+      <a href="#" class="box-5">
         Twitch
       </a>
-      <a href="" class="box-6">
+      <a href="#" class="box-6">
         2D/3D Modeling
       </a>
-      <a href="" class="box-7">
+      <a href="#" class="box-7">
         Book Illustration
       </a>
-      <a href="" class="box-8">
+      <a href="#" class="box-8">
         Pixel Art
       </a>
-      <a href="" class="box-9">
+      <a href="#" class="box-9">
         Music Album Covers
       </a>
     </div>
@@ -84,5 +82,6 @@
   </footer>
 
   <script src="./main.js"></script>
+  <script src="./header.js"></script>
 </body>
 </html>

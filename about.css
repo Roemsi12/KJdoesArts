@@ -12,8 +12,12 @@
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #1F2544);
 }
 
+.link {
+  background-color: transparent;
+}
+
 .hero-container h1 {
-  font-size: 4rem;
+  font-size: clamp(1.5rem, 5vw, 4.5rem);
   cursor: context-menu;
 }
 
@@ -25,7 +29,7 @@ main {
 
 .about-text {
   max-width: 60vw;
-  font-size: 1.7rem;
+  font-size: clamp(0.6rem, 5vw, 1.7rem);
   font-family: 'lato', serif;
 }
 
