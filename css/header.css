@@ -37,6 +37,10 @@ nav a, .link {
   border: none;
 }
 
+.link {
+  background-color: transparent;
+}
+
 nav a:hover, .dropdown.active > .link, .link:hover {
   opacity: 1;
   cursor: pointer;
@@ -119,6 +123,7 @@ nav a:hover, .dropdown.active > .link, .link:hover {
   border-radius: 20px;
   background-color: #FFD0EC;
   margin: 0;
+  pointer-events: none;
 }
 
 .line-animation-div-1 {
@@ -260,4 +265,8 @@ footer a {
 
 p {
   cursor: context-menu;
+}
+
+a, h1, p, button, h2 {
+  user-select: none;
 }
