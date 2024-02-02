@@ -17,6 +17,14 @@ main {
 .container img, .div-style-1 {
   height: clamp(180px, 100%, 300px);
   width: clamp(180px, 100%, 300px);
-  margin-top: 25px;
-  margin: 5px;
+}
+
+.div-style-1 {
+  border: 2px solid #FFD0EC;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 10px 10px 20px 0px rgba(255, 208, 236, 0.5);
 }
