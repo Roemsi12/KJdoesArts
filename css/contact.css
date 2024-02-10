@@ -67,6 +67,11 @@ h2 {
   margin-bottom: 50px;
   margin-right: 10px;
   margin-left: 10px;
+  transition: border 0.3s ease-in-out;
+}
+
+.profile-container:hover {
+  border-color: rgb(254, 227, 243);
 }
 
 .image-container {

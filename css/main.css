@@ -13,9 +13,10 @@
 }
 
 .hero-container h1 {
-  font-size: clamp(1.5rem, 5vw, 4.5rem);
+  font-size: clamp(1.8rem, 5vw, 4.5rem);
   text-align: center;
   cursor: context-menu;
+  margin: 20px;
 }
 
 .de-wobble {
@@ -194,3 +195,61 @@ main a:hover {
 
 
 
+@media screen and (max-width: 600px) {
+  .hero-container h1 {
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 5vh, 2.5rem);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  main a {
+    border-color: #FFD0EC;
+    color: #FFD0EC;
+    font-size: clamp(1rem, 3vh, 2rem);
+  }
+
+  .box-1 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/character-art.jpg);
+    background-position-x: center;
+  }
+
+  .box-2 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/sketch.png);
+  }
+
+  .box-3 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/animation.jpg);
+    background-size: cover;
+    background-position-x: center;
+  }
+
+  .box-4 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/game-assets.webp);
+  }
+
+  .box-5 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/twitch.png);
+  }
+
+  .box-6 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/3D-modeling.jpeg);
+    background-position-x: center;
+  }
+
+  .box-7 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/book-illustration.jpg);
+  }
+
+  .box-8 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/pixel-art.png);
+  }
+
+  .box-9 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000cc),url(../img/main/music-album.jpg);
+    background-position-x: center;
+  }
+}

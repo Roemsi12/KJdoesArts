@@ -33,9 +33,14 @@ main {
   flex-wrap: wrap;
 }
 
-.container img, .div-style-1 {
+.container img, .div-style-1  {
   height: clamp(180px, 100%, 300px);
   width: clamp(180px, 100%, 300px);
+}
+
+.container video {
+  height: clamp(180px, 100%, 600px);
+  width: clamp(180px, 100%, 600px);
 }
 
 .div-style-1 {

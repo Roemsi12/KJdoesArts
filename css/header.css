@@ -270,3 +270,57 @@ p {
 a, h1, p, button, h2 {
   user-select: none;
 }
+
+@media screen and (max-width: 720px) {
+  .line-animation-div-1, .line-animation-div-2 {
+    display: none;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-links-div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+  }
+  
+  .nav-links-div a, .link {
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    margin-bottom: 2.4vh;
+    font-size: clamp(1.25rem, 2vh, 2rem);
+    padding: 0;
+    border-bottom: 2px solid #FFD0EC;
+  }
+
+  nav {
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-top: 3vh;
+  }
+
+  .home-button {
+    font-size: clamp(1.25rem, 2vh, 1.65rem);
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    top: calc(100% + 0.25vh);
+    height: calc(100vh - 100% - 0.25vh - 3vh - 4vh);
+    width: 60vw;
+    margin-left: -40vw;
+    z-index: 200;
+    justify-content: center;
+  }
+
+  .link {
+    z-index: 300;
+  }
+}
+
